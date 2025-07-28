@@ -6,3 +6,4 @@
 4. Navigate to the repository's directory and run ```code .``` or ```cursor .```.
 5. When the program opens it will likely suggest for you to "Reopen in Container", but if you turned off suggestions, do ```Ctrl (or Cmd) + Shift + P``` and do "Dev Containers: Reopen in Container".
 6. Run ```npm run dev``` and it should host the project on [localhost](http://localhost:3000).
+7. In order to view the project as mobile in localhost, open the network debugger and do ```Ctrl (or Cmd) + Shift + M```
