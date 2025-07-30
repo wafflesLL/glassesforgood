@@ -3,7 +3,8 @@
 1. Use VS Code or Cursor to make use of the devcontainer.json I set up.
 2. If you are a **Windows** user you must clone the repository to your wsl filesystem for quick file access.
 3. I suggest turning off resource efficiency in Docker Desktop, or adjusting your CPU allocation as you see fit.
-4. Navigate to the repository's directory and run ```code .``` or ```cursor .```.
-5. When the program opens it will likely suggest for you to "Reopen in Container", but if you turned off suggestions, do ```Ctrl (or Cmd) + Shift + P``` and do "Dev Containers: Reopen in Container".
-6. Run ```npm run dev``` and it should host the project on [localhost](http://localhost:3000).
-7. In order to view the project as mobile in localhost, open the network debugger and do ```Ctrl (or Cmd) + Shift + M```
+4. Make sure you are using the Dev Containers Extension (for vscode:"ms-vscode-remote.remote-containers" for cursor:"anysphere.remote-containers")
+5. Navigate to the repository's directory and run ```code .``` or ```cursor .```.
+6. When the program opens it will likely suggest for you to "Reopen in Container", but if you turned off suggestions, do ```Ctrl (or Cmd) + Shift + P``` and do "Dev Containers: Reopen in Container".
+7. Run ```npm run dev``` and it should host the project on [localhost](http://localhost:3000).
+8. In order to view the project as mobile in localhost, open the network debugger and do ```Ctrl (or Cmd) + Shift + M```
