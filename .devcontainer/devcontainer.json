@@ -1,5 +1,6 @@
 {
   "name": "Next.js Dev",
+  "ForwardAgent": true,
   "build": {
     "dockerfile": "Dockerfile",
     "context": ".."
