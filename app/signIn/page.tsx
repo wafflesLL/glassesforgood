@@ -1,5 +1,8 @@
+"use server"
+import { getBackend } from "@/utils/getResponse";
 
-export default function SignIn() {
+export default async function SignIn() {
+    getBackend("test");
     return(
         <>
             <div className="body flex flex-col justify-center items-center py-16">
