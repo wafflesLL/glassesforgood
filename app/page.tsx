@@ -9,7 +9,7 @@ export default function Home() {
         <h1 className="text-7xl flex justify-center text-center font-extrabold">Glasses For Good</h1>
         <Image src="/logo.png" alt="logo" width={imageSize} height={imageSize}/>
       </div>
-      <Button label="Get Started!" href="/signIn"/>
+      <Button rel="preload" label="Get Started!" href="/signIn"/>
     </div>
   );
 }
