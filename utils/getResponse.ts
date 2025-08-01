@@ -10,5 +10,5 @@ export async function getBackend(endpoint: string){
     });
     
     const output = await response.text();
-    console.log("Raw backend response:", output);
+    console.log("Response:", output);
 }
